@@ -143,7 +143,7 @@ let levels = {
                     x: 0,
                     y: 0,
                 },
-                imageSrc: './img/bg_lvl1.png',
+                imageSrc: './img/background_lvl1N.png'',
             })
             doors = [
                 new Sprite ({
