@@ -26,7 +26,7 @@ class Player extends Sprite{
                 y: this.position.y,
             },
             // position: this.position,
-            width: 40,
+            width: 35,
             height: 10,
         }
     }   
@@ -36,7 +36,7 @@ class Player extends Sprite{
         /*c.fillStyle = 'rgba(0, 0, 255, 0.5)'
         c.fillRect(this.position.x, this.position.y, this.width, this.height) //*/
         this.position.x += this.velocity.x
-        this.attackBox.position.x = this.position.x + 85
+        this.attackBox.position.x = this.position.x + 90
         this.attackBox.position.y = this.position.y + 50
         this.updateHitbox ()
 
