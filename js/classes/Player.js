@@ -214,7 +214,7 @@ class Player extends Sprite{
             player.attackBox.position.y <= enemy.hitBox.position.y + enemy.hitBox.height &&
             player.isAttacking) {
                 player.isAttacking = false;
-                enemy.health -= 20
+                enemy.health -= 5
                 gsap.to('#enemyHealth', {
                     width: enemy.health + '%',
                   })
