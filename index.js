@@ -267,7 +267,7 @@ function determineWinner({player,enemy, timerId }) {
         document.querySelector('#displayText').style.display = "flex"
     }
 }
-let timer = 31
+let timer = 51
 let timerId
 function decreaseTimer() {
     
