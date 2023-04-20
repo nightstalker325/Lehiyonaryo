@@ -263,7 +263,7 @@ function determineWinner({player,enemy, timerId }) {
         document.querySelector('#displayText').style.display = "flex"
     }
     else if (player.health < enemy.health) {
-        document.querySelector('#displayText').innerHTML = "YOU LOSE!"
+        document.querySelector('#displayText').innerHTML = "TRY AGAIN (CTRL + R to Restart)"
         document.querySelector('#displayText').style.display = "flex"
     }
 }
